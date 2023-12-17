@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CalculateShopApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CalculateShopApplication.class, args);
+
 	}
 
 }
