@@ -14,12 +14,12 @@ public class StoreServiceImpl implements StoreService {
     }
     @Override
     public List<Integer> add (List<Integer> goods) {
-        return null;
+        return shoppingCart.add(goods);
     }
 
     @Override
     public List<Integer> get() {
-        return null;
+        return shoppingCart.get();
     }
 
 }
